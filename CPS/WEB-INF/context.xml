@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+    <Valve className="org.apache.catalina.authenticator.FormAuthenticator"
+           changeSessionIdOnAuthentication="false" />
+     <Resource name="jdbc/cps" auth="Container" type="javax.sql.DataSource"
+               maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+               username="postgres" password="1q2w3e4r" driverClassName="com.postgresql.Driver"
+               url="jdbc:postgresql://localhost:5432/cps"/>
+
+</Context>

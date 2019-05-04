@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system-properties>
+        <property name="org.apache.jasper.compiler.Parser.STRICT_QUOTE_ESCAPING" value="false"/>
+</system-properties>
